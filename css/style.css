@@ -1712,6 +1712,17 @@ padding: 18px 0px;
 
 }
  @media(min-width: 768px) and (max-width: 1024px) {
+	 
+.arrow_space {
+	padding: 10px 5px 0px 5px;
+	color:#000;
+	font-size:20px;
+	-ms-transform: rotate(30deg); /* IE 9 */
+	-webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(30deg);
+	line-height: 33px;
+}	 
+	 
 .yellow_listing {
  width: auto;
  padding: 24px 0px;
