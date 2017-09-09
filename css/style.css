@@ -34,6 +34,31 @@ a:hover {
 	font-style: normal;
 }
 
+
+
+
+.main-col {
+    float: left;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tophd {
 	width:100%;
 	margin:auto;
@@ -219,6 +244,10 @@ a:hover {
 .neight_cook h2 {
 	text-align: center;
 	margin:28px 0px 55px 0px;
+}
+.neight_cook h3 {
+	text-align: center; color:#335699;
+	margin:0 0 30px;
 }
 .form_line {
 	max-width:350px;
@@ -756,7 +785,7 @@ a:hover {
 }
 .b-select {
 	height: 40px;
-	background:url(../img/arrow.png) right center no-repeat;
+	background:url(../img/arrow.png) right center no-repeat !important;
 	width: 100%;
 	margin:0px 5px 0px 0px;
 	padding: 5px 15px;
@@ -918,8 +947,11 @@ a:hover {
 	width:auto;
 	margin:82px 0px 0px 0px;
 }
-.Member_regstration{
-width:auto;
+.Member_regstration {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    padding-bottom: 6px;
+    width: 100%;
 }
 .Member_regstration ul{
 float: left;
@@ -1502,7 +1534,111 @@ font-size:18px;
 text-decoration:overline;
 }
 
+
+.mypage-title {
+    margin-bottom: 20px !important;
+}
+.my-pic{ height:190px; overflow:hidden; width:190px; margin:auto;}
+.my-pic img{ width:100%; height:100%;}
+.form_boxes h3 {
+    color: #000;
+    font-family: "Jun201Pro-Regular";
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
+.red-text{ color:#e96656;}
+.my-page-form .form-group {
+    padding: 22px 0 10px;
+}
+.my_page-frm {
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    width: 80%;
+}
+
+.my_page-frm h3 {
+    color: #000;
+    font-family: "Jun201Pro-Regular";
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.form-control{ border-radius:0px;}
+.form-control:focus {
+    border-color:#ccc !important;
+    box-shadow:none !important;
+}
+.social-bottm {
+    float: left;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    width: 100%;
+}
+.social-bottm ul{ list-style-type:none; margin:0px; padding:0px;}
+.social-bottm ul li {
+    color: #000;
+    display: inline-block;
+    font-family: "Jun201Pro-Regular";
+    font-size: 18px;
+    padding: 0 40px;
+}
+.social-bottm ul li .fa{ color:#000; margin-right:15px;}
+
+.so-star {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.so-star ul{ list-style-type:none; margin:0px; padding:0px; text-align:center;}
+.so-star ul li {
+    color: #335699;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 40px;
+}
+.so-star ul li span {
+    color: #000;
+    display: inline;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.button-div {
+    float: left;
+    padding: 12px 0 50px;
+    width: 100%;
+}
+
+.page-inner{ width:100%; float:left; padding:50px 0px;}
+.tilte-one{ text-align:center; margin-top:0px; margin-bottom:25px; font-size:24px; color:#000;}
+
+.page-inner p{ color:#000; font-size:14px;}
+
+
 /*home page start end*/
+.what-newblock {
+    border-bottom: 1px solid #f1f1f0;
+    float: left;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.what-newblock h2{ color:#000; font-size:14px; margin-top:0px; margin-bottom:15px;}
+.what-newblock p{ color:#335699; margin-bottom:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /***** responsive stat***/
@@ -1710,6 +1846,15 @@ padding: 56px 0px;
 .bannerinner .bnrbtn a {
     padding: 7px 42px;	
     
+}
+
+.social-bottm ul li {
+    margin-bottom: 9px;
+    padding: 0 11px;
+}
+.so-star ul li {
+    margin-bottom: 15px;
+    padding: 0 30px;
 }
 	 
  
@@ -2026,13 +2171,12 @@ margin: 0px 0px 0px 0px;
 }
 
 
-
-
-
-
-
-
-
+.social-bottm ul li {
+    padding: 0 20px;
+}
+.so-star ul li {
+    padding: 0 20px;
+}
 /*07menber registration page end*/
 
 
@@ -2102,3 +2246,6 @@ margin: 0px 0px 0px 0px;
 }
  
  }
+
+
+
